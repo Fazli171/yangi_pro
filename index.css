@@ -1,6 +1,13 @@
 body {
-    background-color:rgb(192, 204, 214);
+    background-color: rgb(192, 204, 214); 
 }
+.ma {
+    width: 80%; /* Kenglik beriladi */
+    margin: 0 auto; /* Markazga joylash */
+    
+}
+
+
 .main__li a {
     color: rgb(9, 243, 59);
     text-decoration: none;
