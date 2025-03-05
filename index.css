@@ -2,7 +2,7 @@
     color: rgb(10, 94, 28);
     text-decoration: none;
     transition: color 0.39s ease-in-out, transform 0.5s ease-in-out; 
-    display: inline-block; /* Elementni joyida ushlab turadi */
+    display: inline-block; 
 }
 
 .main__li {
@@ -13,5 +13,5 @@
 .main__li a:hover {
     color: blue;
     background-color: yellow;
-    transform: scale(1.1); /* Matn 1.1 baravar kattalashadi */
+    transform: scale(1.1);
 }
