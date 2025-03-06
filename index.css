@@ -1,7 +1,31 @@
-.main_img img{
-    width: 64px;
+body {
+    font-family: sans-serif;
+}
+.main_img {
     display: inline-block;
+    vertical-align: middle;
+}
+.main_img img {
+    width: 64px;
+
+}
+.main__nav {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.main__li {
+    display: inline-block;
+    padding: 10px;
 }
 .main__li a {
-    display: inline-block;
+    color: blueviolet;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+.main__li a:hover {
+    color: aqua;
+    transition: color 0.3s ease-in-out ;
 }
