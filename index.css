@@ -1,6 +1,10 @@
 body {
     font-family: sans-serif;
 }
+.main {
+    width: 1140px;
+    margin: 0 auto;
+}
 .main_img {
     display: inline-block;
     vertical-align: middle;
@@ -28,4 +32,79 @@ body {
 .main__li a:hover {
     color: aqua;
     transition: color 0.3s ease-in-out ;
+}
+/* main */
+.main-section{
+    padding: 100px 100px;
+    margin-bottom: 200px;
+}
+/* .clar-fix {
+    clear: both;
+} */
+.main-section div {
+    width: 50%;
+    float: left;
+}
+.main-section-img {
+    text-align: right;
+}
+.two-upper {
+    text-transform: uppercase;
+}
+.main-section-welcom {
+   font-size: 16px; 
+   font-weight: 400;
+   margin-bottom: 20px;
+   letter-spacing: 2px;
+   color: #797979;
+}
+.main-section-i {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: rgb(170, 96, 6);
+    letter-spacing: 2px;
+}
+.main-section-levl {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px ;
+    color: rgb(112, 12, 206);
+    letter-spacing: 1px;
+}
+.main-section-action {
+    background-color: rgb(76, 0, 255);
+    color: yellow;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 20px 40px;
+
+}
+.main-section-action:hover {
+    color: rgb(230, 10, 10);
+    transition: color 0.2s ease-in-out;
+}
+.stat {
+    padding: 100px;
+}
+.stat-1 {
+    display: inline-block;
+    background-color: azure;
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 20px;
+    width: 150px;
+}
+.stat-num {
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: blue;
+}
+.stat-nump {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(187, 22, 22);
 }
