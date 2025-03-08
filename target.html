@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:target Example</title>
+    <style>
+        /* :target ishlaganda */
+        .section:target {
+            background-color: yellow;
+            border: 2px solid orange;
+            padding: 10px;
+            transition: 0.8s;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Bo‘limlarga tezkor o'tish</h2>
+    <ul>
+        <li><a href="#section1">1-bo‘lim</a></li>
+        <li><a href="#section2">2-bo‘lim</a></li>
+        <li><a href="#section3">3-bo‘lim</a></li>
+    </ul>
+
+    <div id="section1" class="section">
+        <h3>1-bo‘lim</h3>
+        <p>Bu birinchi bo‘lim matni.</p>
+    </div>
+
+    <div id="section2" class="section">
+        <h3>2-bo‘lim</h3>
+        <p>Bu ikkinchi bo‘lim matni.</p>
+    </div>
+
+    <div id="section3" class="section">
+        <h3>3-bo‘lim</h3>
+        <p>Bu uchinchi bo‘lim matni.</p>
+    </div>
+
+</body>
+</html>
+
